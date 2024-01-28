@@ -3,9 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caching", "Caching\Caching.csproj", "{3B8E18DC-9D6B-408D-B9D3-885BCEE4A363}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caching", "Caching\Caching.csproj", "{3B8E18DC-9D6B-408D-B9D3-885BCEE4A363}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YARP", "YARP\YARP.csproj", "{F52CCCAC-E7F2-4744-886C-3B33676455BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YARP", "YARP\YARP.csproj", "{F52CCCAC-E7F2-4744-886C-3B33676455BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{E1EBC669-8476-42C8-850D-54C0FED80566}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+		Dockerfile.YARP = Dockerfile.YARP
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

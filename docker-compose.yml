@@ -1,0 +1,10 @@
+version: '2.1'
+services:
+  api:
+    image: api
+  api2:
+    image: api
+  yarp:
+    image: yarp
+    ports:
+      - "8002:80"
